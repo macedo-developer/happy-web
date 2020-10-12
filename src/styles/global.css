@@ -1,0 +1,21 @@
+:root {
+  font-size: 50%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  background: #ebf2f5;
+}
+
+body,
+input,
+button,
+textarea {
+  font: 600 1.8rem Nunito, sans-serif;
+}

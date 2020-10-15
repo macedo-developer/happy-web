@@ -49,7 +49,7 @@ function OrphanagesMap() {
             className="map-popup"
           >
             Ophanages one
-            <Link to="/">
+            <Link to="/orphanages/1">
               <FiArrowRight size={20} color="#fff" />
             </Link>
           </Popup>
@@ -57,7 +57,7 @@ function OrphanagesMap() {
 
         {/* <TileLayer url="https://a.tile.openstreetmap.org/{z}/{x}/{y}.png" /> */}
       </Map>
-      <Link to="" className="create-orphanages">
+      <Link to="/orphanages/new" className="create-orphanages">
         <FiPlus size={32} color="#fff" />
       </Link>
     </div>

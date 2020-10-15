@@ -18,4 +18,5 @@ input,
 button,
 textarea {
   font: 600 1.8rem Nunito, sans-serif;
+  outline: 0;
 }
